@@ -299,3 +299,6 @@
 #import "SBWallpaperClipView.h"
 #import "SBWallpaperView.h"
 
+#import "SBLockScreenViewController.h"
+#import "SBLockScreenManager.h"
+#import "SBBacklightController.h"
