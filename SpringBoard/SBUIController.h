@@ -64,7 +64,7 @@
 -(UIView *)contentView;
 -(UIWindow *)window;
 -(void)launchIcon:(SBIcon *)icon;
--(void)activateApplicationAnimated:(SBApplication *)application;
+-(void)activateApplication:(SBApplication *)application;
 -(void)showZoomLayerWithDefaultImageOfApp:(SBApplication *)app;
 -(void)showZoomLayerWithIOSurfaceSnapshotOfApp:(SBApplication *)app includeStatusWindow:(id)window;
 -(void)scatterIconListAndBar:(BOOL)animated;

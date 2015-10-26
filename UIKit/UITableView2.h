@@ -78,7 +78,6 @@
 // inherited: -(void)setShowsVerticalScrollIndicator:(BOOL)indicator;
 // inherited: -(void)setContentOffset:(CGPoint)offset;
 // inherited: -(void)setContentInset:(UIEdgeInsets)inset;
--(NSArray*)indexPathsForSelectedRows;
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_3_2
 -(id)rowDataDescription;
 -(void)_selectAllSelectedRows;

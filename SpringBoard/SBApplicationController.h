@@ -25,7 +25,7 @@
 // inherited: -(void)dealloc;
 -(NSArray*)allApplications;
 -(NSArray*)applicationsWithBundleIdentifier:(NSString*)bundleIdentifier;
--(SBApplication*)applicationWithDisplayIdentifier:(NSString*)displayIdentifier;
+-(SBApplication*)applicationWithBundleIdentifier:(NSString*)displayIdentifier;
 -(SBApplication*)applicationWithPid:(pid_t)pid;
 -(SBApplication*)springBoard;
 -(SBApplication*)iPod;
